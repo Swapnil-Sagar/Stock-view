@@ -80,6 +80,7 @@ class Stock extends Component {
   render() {
     return (
       <div className="App">
+        <h1>STOCK VIEW</h1>
         <br />
 
         <div className="form-group">
@@ -89,13 +90,13 @@ class Stock extends Component {
               className="form-control"
               value={this.state.value}
               onChange={this.handleChange}
+              placeholder="Enter Stock Symbol"
             />
             <button type="submit" className="form-control btn btn-whatever">
-              Select Stock
+              Track
             </button>
           </form>
         </div>
-        <h1>STOCK VIEW</h1>
         <h4>
           Stock Symbol: <span id="demo">MSFT</span>
         </h4>
@@ -112,9 +113,13 @@ class Stock extends Component {
               marker: { color: "red" },
             },
           ]}
-          layout={{ width: 720, height: 440, title: "Alphavantage Data Chart" }}
+          layout={{ width: 720, height: 440, title: "Latest Data Chart" }}
         />
-        <h2>Made By: Swapnil Sagar</h2>
+        <h2>
+          <a href="https://github.com/Swapnil-Sagar/Stock-view">
+            Stock View by Swapnil Sagar
+          </a>
+        </h2>
       </div>
     );
   }
