@@ -113,10 +113,19 @@ class Stock extends Component {
               marker: { color: "red" },
             },
           ]}
-          layout={{ width: 720, height: 440, title: "Latest Data Chart" }}
+          layout={{
+            width: 720,
+            height: 440,
+            title: "Latest Data Chart",
+            plot_bgcolor: "rgba(22,22,37,0.1)",
+            paper_bgcolor: "rgba(22,22,37,0.7)",
+          }}
         />
         <h2>
-          <a href="https://github.com/Swapnil-Sagar/Stock-view">
+          <a
+            className="made_by"
+            href="https://github.com/Swapnil-Sagar/Stock-view"
+          >
             Stock View by Swapnil Sagar
           </a>
         </h2>
