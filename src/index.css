@@ -22,19 +22,120 @@ code {
   color: white !important;
 }
 
+.form-control-text {
+  /* display: block; */
+  width: 30%;
+  padding: 8px 16px;
+  line-height: 15px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: inherit;
+  border-radius: 6px;
+  -webkit-appearance: none;
+  color: #bdd2db;
+  border: 1px solid #00bcd4;
+  background: rgb(33, 33, 56);
+  transition: border 0.3s ease;
+}
+
+.form-control {
+  /* display: block; */
+  width: 10%;
+  padding: 8px 16px;
+  line-height: 15px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: inherit;
+  border-radius: 0px;
+  -webkit-appearance: none;
+  color: #bdd2db;
+  border: 1px solid #00bcd4;
+  background: rgb(33, 33, 56);
+  transition: border 0.3s ease;
+}
+
 .made_by {
   color: #00bcd4;
+  letter-spacing: 1.5px;
+  font-family: monospace;
+  text-decoration: none;
 }
 
 .App {
+  display: flex;
+}
+
+.App_main {
   color: #d0d7da;
+  margin-left: 120px;
+  margin-right: 120px;
 }
 
 #sidebar {
+  color: antiquewhite;
+  margin-left: 10px;
+  box-sizing: border-box;
+  width: 300px;
+  line-height: 1.6;
+  min-width: 230px;
+  background: #2a2a4d;
+  font-size: 15px;
+  min-height: 100vh;
+  text-align: left;
+  font-weight: 10;
+}
+
+#sidebar_heading {
+  text-align: center;
+}
+
+#sidelist {
+  margin-right: 10px;
   box-sizing: border-box;
   width: 230px;
   min-width: 230px;
-  background: #3f0e40;
+  background: #bdd2db;
   font-size: 15px;
   min-height: 100vh;
+}
+
+/* ----------sidelist components---------- */
+
+.example_a {
+  color: rgb(214, 214, 214) !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #ab2ac1;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 5px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+}
+
+.example_a:hover {
+  background: #3e218d;
+  letter-spacing: 1px;
+  text-decoration: none;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
+}
+
+.learn_sites {
+  line-height: 35px;
+}
+
+.navbar-gif {
+  margin-top: 40px;
+}
+
+.navbar-git {
+  margin-top: 20px;
+}
+
+.sidelist_heading {
+  font-size: 17px;
 }

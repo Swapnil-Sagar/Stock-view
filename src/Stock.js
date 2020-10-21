@@ -79,7 +79,7 @@ class Stock extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="App_main">
         <h1>STOCK VIEW</h1>
         <br />
 
@@ -87,7 +87,7 @@ class Stock extends Component {
           <form onSubmit={this.handleSubmit}>
             <input
               type="text"
-              className="form-control"
+              className="form-control-text"
               value={this.state.value}
               onChange={this.handleChange}
               placeholder="Enter Stock Symbol"
@@ -124,7 +124,8 @@ class Stock extends Component {
         <h2>
           <a
             className="made_by"
-            href="https://github.com/Swapnil-Sagar/Stock-view"
+            href="https://swapnilsagar.netlify.app/"
+            target="_blank"
           >
             Stock View by Swapnil Sagar
           </a>
