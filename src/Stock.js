@@ -126,6 +126,7 @@ class Stock extends Component {
             className="made_by"
             href="https://swapnilsagar.netlify.app/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Stock View by Swapnil Sagar
           </a>
