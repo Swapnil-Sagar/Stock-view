@@ -11,6 +11,7 @@ class Sidebar extends Component {
             <li>Microsoft Corporation - MSFT </li>
             <li>International Business Machines Corporation - IBM </li>
             <li>Coca-Cola Company - KO </li>
+            <li>Tata Consultancy Services - TCS </li>
             <li>Google Inc. - GOOG </li>
             <li>Tesla Motors, Inc. - TSLA </li>
             <li>Zoom Technologies Inc. - ZOOM </li>
