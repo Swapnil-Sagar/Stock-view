@@ -71,8 +71,7 @@ class Stock extends Component {
         //if no data, a message is sent to user
 
         if (!stockName) {
-          document.getElementById("demo").innerHTML =
-            "Nothing available at this time";
+          document.getElementById("demo").innerHTML = "Cannot be Empty Symbol";
         }
       });
   }
